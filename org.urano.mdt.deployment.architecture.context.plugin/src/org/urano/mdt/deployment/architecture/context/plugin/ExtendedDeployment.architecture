@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<architecture:ArchitectureDomain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:architecture="http://www.eclipse.org/papyrus/infra/core/architecture" xmi:id="_eWvgwB3WEei8D-BA5hafeQ" id="org.urano.mdt.deployment.architecture.context.domain" name="Extended Deployment" description="Architecture context for an extended version of the UML Deployment Diagram.">
+<architecture:ArchitectureDomain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:architecture="http://www.eclipse.org/papyrus/infra/core/architecture" xmlns:gmfdiagrepresentation="http://www.eclipse.org/papyrus/infra/gmfdiag/representation" xmi:id="_eWvgwB3WEei8D-BA5hafeQ" id="org.urano.mdt.deployment.architecture.context.domain" name="Extended Deployment" description="Architecture context for an extended version of the UML Deployment Diagram." icon="org.eclipse.papyrus.uml.diagram.deployment.CreateDeploymentDiagramCommand">
   <stakeholders xmi:id="_E1VtoB3XEei8D-BA5hafeQ" id="org.urano.mdt.deployment.architecture.context.domain.stakeholder" name="Deployer" description="A software system deployer." concerns="_wGh8QB3WEei8D-BA5hafeQ"/>
   <concerns xmi:id="_wGh8QB3WEei8D-BA5hafeQ" id="org.urano.mdt.deployment.architecture.context.domain.concern" name="Component-Based Software Deployment" description="Deployment of component-based software systems."/>
-  <contexts xsi:type="architecture:ArchitectureDescriptionLanguage" xmi:id="_MIkjUB3aEei8D-BA5hafeQ" id="org.urano.mdt.deployment.architecture.context.domain.dl" name="UML 2.0" description="The UML 2.0 Metamodel." creationCommandClass="org.eclipse.papyrus.uml.diagram.common.commands.CreateUMLModelCommand">
+  <contexts xsi:type="architecture:ArchitectureDescriptionLanguage" xmi:id="_MIkjUB3aEei8D-BA5hafeQ" id="org.urano.mdt.deployment.architecture.context.domain.dl" name="UML 2.0" description="The UML 2.0 Metamodel." icon="platform:/plugin/org.eclipse.papyrus.uml.architecture/icons/uml.gif" creationCommandClass="org.eclipse.papyrus.uml.diagram.common.commands.CreateUMLModelCommand">
+    <viewpoints xmi:id="_RYv_UB3hEei8D-BA5hafeQ" id="org.urano.mdt.deployment.architecture.context.domain.dl.viewpoint" name="Deployment" description="A viewpoint allowing software deployment specification with UML." icon="platform:/plugin/org.eclipse.papyrus.uml.architecture/icons/viewpoint.gif" concerns="_wGh8QB3WEei8D-BA5hafeQ" representationKinds="_4aMh8B3eEei8D-BA5hafeQ"/>
+    <representationKinds xsi:type="gmfdiagrepresentation:PapyrusDiagram" xmi:id="_4aMh8B3eEei8D-BA5hafeQ" id="org.urano.mdt.deployment.architecture.context.domain.dl.deployment.diagram" name="Extended Deployment Diagram" icon="platform:/plugin/org.eclipse.papyrus.uml.diagram.deployment/icons/obj16/DeploymentDiagram.gif" implementationID="PapyrusUMLDeploymentDiagram " creationCommandClass="org.eclipse.papyrus.uml.diagram.deployment.CreateDeploymentDiagramCommand">
+      <modelRules xmi:id="_Y7cmoB3fEei8D-BA5hafeQ">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact"/>
+      </modelRules>
+      <owningRules xmi:id="_iWb6YB3fEei8D-BA5hafeQ">
+        <element href="http://www.eclipse.org/uml2/5.0.0/UML#//Artifact"/>
+      </owningRules>
+    </representationKinds>
     <metamodel href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
   </contexts>
 </architecture:ArchitectureDomain>
