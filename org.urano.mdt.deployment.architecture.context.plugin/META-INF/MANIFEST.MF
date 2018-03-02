@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Extended Deployment Architecture Context
+Bundle-SymbolicName: org.urano.mdt.deployment.architecture.context.plugin;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.urano.mdt.deployment.architecture.context.plugin.Activator
+Bundle-Vendor: lfrivera
+Require-Bundle: org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy

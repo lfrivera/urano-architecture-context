@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architecture:ArchitectureDomain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:architecture="http://www.eclipse.org/papyrus/infra/core/architecture" xmi:id="_eWvgwB3WEei8D-BA5hafeQ" id="org.urano.mdt.deployment.architecture.context.domain" name="Extended Deployment" description="Architecture context for an extended version of the UML Deployment Diagram.">
+  <stakeholders xmi:id="_E1VtoB3XEei8D-BA5hafeQ" id="org.urano.mdt.deployment.architecture.context.domain.stakeholder" name="Deployer" description="A software system deployer." concerns="_wGh8QB3WEei8D-BA5hafeQ"/>
+  <concerns xmi:id="_wGh8QB3WEei8D-BA5hafeQ" id="org.urano.mdt.deployment.architecture.context.domain.concern" name="Component-Based Software Deployment" description="Deployment of component-based software systems."/>
+  <contexts xsi:type="architecture:ArchitectureDescriptionLanguage" xmi:id="_MIkjUB3aEei8D-BA5hafeQ" id="org.urano.mdt.deployment.architecture.context.domain.dl" name="UML 2.0" description="The UML 2.0 Metamodel." creationCommandClass="org.eclipse.papyrus.uml.diagram.common.commands.CreateUMLModelCommand">
+    <metamodel href="http://www.eclipse.org/uml2/5.0.0/UML#/"/>
+  </contexts>
+</architecture:ArchitectureDomain>

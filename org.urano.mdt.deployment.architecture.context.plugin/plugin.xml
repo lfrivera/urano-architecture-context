@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="org.eclipse.papyrus.infra.architecture.models" name="Papyrus models" schema="schema/org.eclipse.papyrus.infra.architecture.models.exsd"/>
+   <extension-point id="org.eclipse.papyrus.infra.architecture.models" name="Papyrus models" schema="schema/org.eclipse.papyrus.infra.architecture.models.exsd"/>
+   <extension
+         point="org.eclipse.papyrus.infra.architecture.models">
+      <model
+            path="src/org/urano/mdt/deployment/architecture/context/plugin/ExtendedDeployment.architecture">
+      </model>
+   </extension>
+
+</plugin>

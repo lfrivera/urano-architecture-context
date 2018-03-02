@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architecture:ArchitectureDomain xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:architecture="http://www.eclipse.org/papyrus/infra/core/architecture" xmi:id="_eWvgwB3WEei8D-BA5hafeQ" id="org.urano.mdt.deployment.architecture.context.domain" name="Extended Deployment" description="Architecture context for an extended version of the UML Deployment Diagram.">
+  <stakeholders xmi:id="_E1VtoB3XEei8D-BA5hafeQ" id="org.urano.mdt.deployment.architecture.context.stakeholder" name="Deployer" description="A software system deployer." concerns="_wGh8QB3WEei8D-BA5hafeQ"/>
+  <concerns xmi:id="_wGh8QB3WEei8D-BA5hafeQ" id="org.urano.mdt.deployment.architecture.context.concern" name="Component-Based Software Deployment" description="Deployment of component-based software systems."/>
+</architecture:ArchitectureDomain>
